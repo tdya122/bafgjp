@@ -12,7 +12,7 @@ cmd({
   on: "body"
 },    
 async (conn, mek, m, { from, body, isOwner }) => {
-    const filePath = path.join(__dirname, '../my_data/autovoice.json');
+    const filePath = path.join(__dirname, '../lib/autovoice.json');
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     for (const text in data) {
         if (body.toLowerCase() === text.toLowerCase()) {
@@ -35,7 +35,7 @@ cmd({
   on: "body"
 },    
 async (conn, mek, m, { from, body, isOwner }) => {
-    const filePath = path.join(__dirname, '../my_data/autosticker.json');
+    const filePath = path.join(__dirname, '../lib/autosticker.json');
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     for (const text in data) {
         if (body.toLowerCase() === text.toLowerCase()) {
