@@ -73,7 +73,7 @@ cmd({
     if (!q) {
       return await reply("*Please your phone number 📞*\n`👇 Example :`\n\n.pair 94755997160");
     }
-    const response = await fetchJson("https://kd-panta-pair-c29ac204be8c.herokuapp.com/code?number=" + q);
+    const response = await fetchJson("https://kd-panta-pair-web-05c194436d88.herokuapp.com/code?number=" + q);
     const code = response.code;
     extra.reply(code + "\n\n" + "*copy code...⌛*\n`peast with link device 📲`");
   } catch (error) {
