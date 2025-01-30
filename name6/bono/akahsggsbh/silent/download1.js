@@ -124,8 +124,6 @@ cmd({
 
 //==================𝗜𝗠𝗔𝗚𝗘==================================
 
-const { cmd, commands } = require("../command");
-const axios = require("axios");
 
 cmd({
     pattern: "img",
