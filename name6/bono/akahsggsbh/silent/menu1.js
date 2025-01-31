@@ -1363,8 +1363,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
           renderLargerThumbnail: false,
           showAdAttribution: true
-    
-
+              {
+          title: "LARA MD",
+          body: "ꜱᴀᴅᴇᴇꜱʜᴀ ᴛʜᴀʀᴜᴍɪɴ",
+          mediaType: 1,
+          sourceUrl: "https://github.com/sadiyamin",
+          thumbnailUrl: "https://raw.githubusercontent.com/tharumin/Alexa_Voice/refs/heads/main/20241214_204755.jpg",
+          renderLargerThumbnail: false,
+          showAdAttribution: true
+        }}
+      }
+    }, {
+      quoted: match });
 
 /*image: { url: video.thumbnail || "https://i.ibb.co/TcyMWM2/3482.jpg" },
       caption: dec,
