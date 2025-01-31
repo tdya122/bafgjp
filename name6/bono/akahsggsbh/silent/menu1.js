@@ -1,8 +1,7 @@
 
 
 
-let fs = require('fs');
-const { exec } = require('child_process');
+
 const config = require('../config');
 const { cmd, commands } = require('../command');
 const os = require("os");
@@ -40,48 +39,6 @@ var cantscg = ''
 if(config.LANG === 'SI') cantscg = "*මට මේ ගීතයේ lyrics සොයාගත නොහැක !*"
 else cantscg = "*I cant find lyrics of this song !*"
 
-
-
-cmd({
-    pattern: "update2",
-    react: "🔄",
-    desc: "Update folder from GitHub",
-    category: "system",
-    use: '.update',
-    filename: __filename
-}, async (conn, mek, m, { from, reply }) => {
-    try {
-        const repoUrl = 'https://github.com/Kdpanta2/KD_PANTA_00'; 
-        const targetFolder = 'plugins'; 
-
-    
-        if (!fs.existsSync(targetFolder)) {
-            fs.mkdirSync(targetFolder); 
-        }
-
-        
-        const gitCommand = fs.existsSync(`${targetFolder}/.git`)
-            ? `git -C ${targetFolder} pull`
-            : `git clone ${repoUrl} ${targetFolder}`;
-
-        
-        await new Promise((resolve, reject) => {
-            exec(gitCommand, (err, stdout, stderr) => {
-                if (err) {
-                    reject(`Git command failed: ${stderr}`);
-                } else {
-                    resolve(stdout);
-                }
-            });
-        });
-
-    
-        await conn.sendMessage(from, { text: '*Update complete✅*' }, { quoted: mek });
-    } catch (error) {
-        console.error(error);
-        reply(`*Error during update:* ${error.message}`);
-    }
-});
 
 
 
