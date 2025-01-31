@@ -142,8 +142,8 @@ reply(`*ᴘʟᴇᴀꜱ ᴛʀʏ ᴀɢᴀɪɴ...⌛*`)
 
 
 cmd({
-    pattern: "tiktok",
-    alias: ["ttdl","tt"],
+    pattern: "tiktok2",
+    alias: ["ttdl","tt2"],
     react: '🏷️',
     desc: "",
     category: "download",
