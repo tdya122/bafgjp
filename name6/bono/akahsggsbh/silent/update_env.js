@@ -4,7 +4,7 @@ const { cmd } = require('../command');
 const config = require('../config');
 let fs = require('fs');
 const { exec } = require('child_process');
-const { cmd } = require('../command');
+
 
 cmd({
     pattern: "update2",
