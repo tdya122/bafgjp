@@ -1341,7 +1341,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 `;
 
         
-         await conn.sendMessage(
+        await conn.sendMessage(
            from,
          {image: { url: `https://i.ibb.co/55zy3BV/8868.jpg` },
                     caption: dec,
@@ -1352,44 +1352,25 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
-                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
+                    newsletterName: 'KD PANTA 00',
                     serverMessageId: 999
         },
           externalAdReply: {
-          title: "👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿",
-          body: "©POWERDE BY KD PANTA 00",
+          title: "KD PANTA 00",
+          body: "mead by kavishka",
           mediaType: 1,
-          sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
-          thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
-          renderLargerThumbnail: false,
-          showAdAttribution: true
-          /*    {  
-          title: "LARA MD",
-          body: "ꜱᴀᴅᴇᴇꜱʜᴀ ᴛʜᴀʀᴜᴍɪɴ",
-          mediaType: 1,
-          sourceUrl: "https://github.com/sadiyamin",
+          sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
           thumbnailUrl: "https://raw.githubusercontent.com/tharumin/Alexa_Voice/refs/heads/main/20241214_204755.jpg",
           renderLargerThumbnail: false,
           showAdAttribution: true
-                        }
 
-image: { url: video.thumbnail || "https://i.ibb.co/TcyMWM2/3482.jpg" },
-      caption: dec,
-      contextInfo: {
-        mentionedJid: [m.sender],
-        externalAdReply: {
-          showAdAttribution: true,
-          containsAutoReply: true,
-          title: "👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿",
-          body: "© CREATE BY KD PANTA 00",*/
-
-              
                     
                     }
                     }
             },
             { quoted: mek }
         );
+
 
         // send audio
         await conn.sendMessage(from, {
