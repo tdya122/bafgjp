@@ -934,24 +934,36 @@ if (isReplyToMenu) {
   const response = menuResponses[userReply];
   if (response) {
     // Send image response
-    await bot.sendMessage(
-  from,
-  {
-    image: { url: "https://i.ibb.co/TcyMWM2/3482.jpg" },
-    caption: response.imageCaption,
-    contextInfo: {
-      mentionedJid: [],
-      isForwarded: true,
-      forwardingScore: 1,
-      forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363350910072443@newsletter",
-        newsletterName: "👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿",
-        serverMessageId: 999,
+
+        await conn.sendMessage(
+           from,
+         {image: { url: `https://i.ibb.co/55zy3BV/8868.jpg` },
+                    caption: dec,
+                    contextInfo: {
+                    mentionedJid: [m.sender],
+                    groupMentions: [],
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363350910072443@newsletter',
+                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
+                    serverMessageId: 999
+        },
+          externalAdReply: {
+          title: "༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒",
+          body: "© CRATER TO KAVISHKA",
+          mediaType: 1,
+          sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
+          thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
+          renderLargerThumbnail: false,
+          showAdAttribution: true
+
+                    
+                    }
+                    }
             },
-            },
-            },
-            { quoted: message }
-);
+            { quoted: mek }
+        );
   } else {
     // Handle invalid input
     await bot.sendMessage(from, {
@@ -1172,7 +1184,7 @@ ${pushname}
                     serverMessageId: 999
         },
           externalAdReply: {
-          title: "👿༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒👿",
+          title: "༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒",
           body: "© CRATER TO KAVISHKA",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
@@ -1266,7 +1278,7 @@ ${pushname}
                     serverMessageId: 999
         },
           externalAdReply: {
-          title: "👿༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒👿",
+          title: "༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒",
           body: "© CRATER TO KAVISHKA",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
@@ -1355,7 +1367,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     serverMessageId: 999
         },
           externalAdReply: {
-          title: "👿༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒👿",
+          title: "༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒",
           body: "© CRATER TO KAVISHKA",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
