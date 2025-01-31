@@ -47,21 +47,20 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *┌───────────╶╶╶╾⦁⦂⦁*
 *◈SYSTEM KD PANTA 00◈*
 *└───────────╶╶╶╾⦁⦂⦁*
-👋${pushname}
-
+🧑‍💻 ${pushname}
 ╔═════════════●●►
 ╚ *◈ UPTIME :*
-║ ❯❯ ⦁ ${runtime(process.uptime())}
+║ ⌛ ${runtime(process.uptime())}
 ╚═════════════●●►
 
 ╔═════════════●●►
 ╚ *◈ RAM USAGE :*
-║ ❯❯ ⦁ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+║ 🤖 ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ╚═════════════●●►
 
 ╔═════════════●●►
 ╚ *◈ HOSTNAME :*
-║ ❯❯ ⦁ ${os.hostname()}
+║ ✒️ ${os.hostname()}
 ╚═════════════●●►
 
 *•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*
@@ -86,7 +85,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                             },
 externalAdReply: { 
 title: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
-body: `${pushname}`,
+body: `© CRAEATOR BY KAVISHKA`,
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VaxNSDR4SpkEoUszuP3E" ,
 thumbnailUrl: "https://i.ibb.co/LDPj6RBn/3305.jpg" ,
@@ -97,14 +96,6 @@ showAdAttribution: true
             },
             { quoted: mek }
         );
-
-        // send audio
-        await conn.sendMessage(from, {
-                   audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
-                   mimetype: 'audio/mp4',
-                   ptt: true
-             },
-             { quoted: mek });
         
     } catch (e) {
         console.log(e);
