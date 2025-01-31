@@ -959,8 +959,8 @@ if (isReplyToMenu) {
           showAdAttribution: true
 
                     
-                    }
-                    }
+                    },
+                    },
             },
             { quoted: mek }
         );
