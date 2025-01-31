@@ -7,8 +7,8 @@ const { fetchJson } = require('../lib/functions'),
   { cmd, commands } = require('../command')
 cmd(
   {
-    pattern: 'tiktok2',
-    alias: ['tt2'],
+    pattern: 'tiktok',
+    alias: ['tt'],
     react: '\uD83C\uDFA5',
     desc: 'download tt videos',
     category: 'download',
