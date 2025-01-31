@@ -94,7 +94,7 @@ cmd({
 cmd({
   pattern: "fb",
   react: '🔮',
- // alias: ["fbdl","facebook"],
+  alias: ["fbdl","facebook"],
   desc: "",
   category: "download",
   use: '.fb <Fb video link>',
