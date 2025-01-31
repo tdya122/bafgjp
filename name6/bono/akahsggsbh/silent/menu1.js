@@ -1352,18 +1352,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
-                    newsletterName: 'KD PANTA 00',
+                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
                     serverMessageId: 999
         },
           externalAdReply: {
-          title: "KD PANTA 00",
-          body: "mead by kavishka",
+          title: "👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿",
+          body: "©POWERDE BY KD PANTA 00",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
           thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
           renderLargerThumbnail: false,
           showAdAttribution: true
-              {  
+          /*    {  
           title: "LARA MD",
           body: "ꜱᴀᴅᴇᴇꜱʜᴀ ᴛʜᴀʀᴜᴍɪɴ",
           mediaType: 1,
@@ -1373,7 +1373,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           showAdAttribution: true
                         }
 
-/*image: { url: video.thumbnail || "https://i.ibb.co/TcyMWM2/3482.jpg" },
+image: { url: video.thumbnail || "https://i.ibb.co/TcyMWM2/3482.jpg" },
       caption: dec,
       contextInfo: {
         mentionedJid: [m.sender],
