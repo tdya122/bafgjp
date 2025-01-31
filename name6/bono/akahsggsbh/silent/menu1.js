@@ -1360,7 +1360,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
           thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
-          renderLargerThumbnail: false,
+          renderLargerThumbnail: true,
           showAdAttribution: true
 
 
