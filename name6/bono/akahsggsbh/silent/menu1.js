@@ -1359,8 +1359,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           body: "mead by kavishka",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
-          thumbnailUrl: "https://i.ibb.co/TcyMWM2/3482.jpg",
-          renderLargerThumbnail: true,
+          thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
+          renderLargerThumbnail: false,
           showAdAttribution: true
 
 
