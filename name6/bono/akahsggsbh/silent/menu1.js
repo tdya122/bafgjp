@@ -1342,10 +1342,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         await conn.sendMessage(
            from,
-         {
-
-
-                   image: { url: `https://i.ibb.co/V2HvpfW/9035.jpg` },
+         {image: { url: `https://i.ibb.co/55zy3BV/8868.jpg` },
                     caption: dec,
                     contextInfo: {
                     mentionedJid: [m.sender],
@@ -1354,17 +1351,19 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
-                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
+                    newsletterName: 'KD PANTA 00',
                     serverMessageId: 999
-                            },
-externalAdReply: { 
-title: '༒👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿༒',
-body: `${pushname}`,
-mediaType: 1,
-sourceUrl: "https://chat.whatsapp.com/BUXYSeJZdPTFccIFvsvNyL" ,
-thumbnailUrl: "file:///storage/emulated/0/Download/20250106_220247.jpg" ,
-renderLargerThumbnail: true,
-showAdAttribution: true
+        },
+          externalAdReply: {
+          title: "KD PANTA 00",
+          body: "mead by kavishka",
+          mediaType: 1,
+          sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
+          thumbnailUrl: "https://i.ibb.co/21wsJB54/9407.jpg",
+          renderLargerThumbnail: false,
+          showAdAttribution: true
+
+                    
                     }
                     }
             },
