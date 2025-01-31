@@ -2,6 +2,7 @@ const config = require('../config')
 const {cmd , commands} = require('../command')
 const {sleep} = require('../lib/functions')
 
+
 cmd({
     pattern: "restart",
     alias: ["res"],
@@ -24,23 +25,4 @@ reply(`${e}`)
 })
 
 
-cmd({
-    pattern: "updatecmd",
-    alias: ["up","updatecommand","liveupdate"],
-    desc: "update all commands",
-    category: "owner",
-    react: "⏳",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-if (!isOwner) return reply("📵 𝐘𝐎𝐔𝐑 𝐍𝐎𝐓 𝐎𝐖𝐍𝐄𝐑");
-try{
-const {exec} = require("child_process")
-reply("*🤖 KD PANTA 00 🤖*\n\n🔄 𝐋𝐈𝐕𝐄 𝐔𝐏𝐃𝐀𝐓𝐄 𝐃𝐎𝐍𝐄...✅")
-await sleep(1500)
-exec("pm2 restart all")
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
+
