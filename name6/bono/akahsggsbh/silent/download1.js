@@ -341,7 +341,7 @@ m.react('⬇️')
             let media = data[i];
             let downloadurl = media.url
              m.react('⬆️')
-            await conn.sendMessage(from,{video: {url:downloadurl},mimetype:"video/mp4",caption: `*•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*`},{quoted:mek})
+            await conn.sendMessage(from,{video: {url:downloadurl},mimetype:"video/mp4",caption: `*📽️ INSTAGRAM DOWNLOAD 📽️*\n\n> *© POWER BY KD PANTA 00*`},{quoted:mek})
              m.react('✅')
          }
 
@@ -355,37 +355,6 @@ reply(`${e}`)
 
 //==============𝗧𝗪𝗜𝗧𝗧𝗘𝗥===========================
 
-
-//twitter dl (x)
-cmd({
-    pattern: "twitter3",
-   // alias: ["twdl"],
-    react: "🖥️",
-    desc: "download tw videos",
-    category: "download",
-    filename: __filename
-},
-async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
-    try {
-        if (!q && !q.startsWith("https://")) return reply("*give me twitter url 🖇️*\n`👇 Example :`\n\n.twitter2 https://x.com/Ro45Kuljot/status/1858448116477026368")
-        m.react('⬇️')
-        //fetch data from api  
-        let data = await fetchJson(`${baseUrl}/api/twitterdl?url=${q}`)
-        reply("*Downloading...*")
-        //send video (hd,sd)
-        m.react('⬆️')
-        await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `> *© POWER BY KD PANTA 00*` }, { quoted: mek })
-        m.react('✅')
-        await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `> *© POWER BY KD PANTA 00*` }, { quoted: mek })  
-        m.react('✅')
-        //send audio    
-        await conn.sendMessage(from, { audio: { url: data.data.data.audio }, mimetype: "audio/mpeg" }, { quoted: mek })  
-        m.react('✅')
-    } catch (e) {
-        console.log(e)
-        reply(`${e}`)
-    }
-})
 
 
 
