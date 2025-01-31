@@ -130,7 +130,7 @@ cmd(
 cmd(
   {
     pattern: 'fb2',
-    alias: ['facebook2'],
+    alias: ['facebook'],
     desc: 'Download Facebook videos',
     category: 'download',
     filename: __filename,
