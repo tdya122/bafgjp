@@ -934,26 +934,23 @@ if (isReplyToMenu) {
   const response = menuResponses[userReply];
   if (response) {
     // Send image response
-
-await bot.sendMessage(
+    await bot.sendMessage(
   from,
   {
-        image: { url: "https://i.ibb.co/TcyMWM2/3482.jpg" },
-        caption: menuText,
-        contextInfo: {
-        mentionedJid: [],
-        isForwarded: true,
-        forwardingScore: 1,
-        forwardedNewsletterMessageInfo: {
+    image: { url: "https://i.ibb.co/TcyMWM2/3482.jpg" },
+    caption: response.imageCaption,
+    contextInfo: {
+      mentionedJid: [],
+      isForwarded: true,
+      forwardingScore: 1,
+      forwardedNewsletterMessageInfo: {
         newsletterJid: "120363350910072443@newsletter",
         newsletterName: "👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿",
         serverMessageId: 999,
-        
             },
             },
             },
             { quoted: message }
-      
 );
   } else {
     // Handle invalid input
