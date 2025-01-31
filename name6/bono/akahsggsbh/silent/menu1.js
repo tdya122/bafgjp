@@ -1342,7 +1342,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         await conn.sendMessage(
            from,
-         {image: { url: `https://i.ibb.co/55zy3BV/8868.jpg` },
+         {image: { url: `https://raw.githubusercontent.com/tdya122/bafgjp/refs/heads/main/name4/bono/20250129_151553.jpg` },
                     caption: dec,
                     contextInfo: {
                     mentionedJid: [m.sender],
@@ -1359,7 +1359,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           body: "mead by kavishka",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
-          thumbnailUrl: "https://i.ibb.co/21wsJB54/9407.jpg",
+          thumbnailUrl: "https://raw.githubusercontent.com/tdya122/bafgjp/refs/heads/main/name4/bono/20241122_185935.png",
           renderLargerThumbnail: false,
           showAdAttribution: true
 
