@@ -1,3 +1,46 @@
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const { fetchJson } = require('../lib/functions'),
   { downloadTiktok } = require('@mrnima/tiktok-downloader'),
   { facebook } = require('@mrnima/facebook-downloader'),
@@ -7,8 +50,8 @@ const { fetchJson } = require('../lib/functions'),
   { cmd, commands } = require('../command')
 cmd(
   {
-    pattern: 'tiktok',
-    alias: ['tt'],
+    pattern: 'tiktok2',
+    alias: ['tt2'],
     react: '\uD83C\uDFA5',
     desc: 'download tt videos',
     category: 'download',
