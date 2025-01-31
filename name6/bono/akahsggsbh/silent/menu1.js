@@ -947,7 +947,7 @@ if (isReplyToMenu) {
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
                     newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
-                    serverMessageId: 999
+                    serverMessageId: 999,
         },
           externalAdReply: {
           title: "༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒",
@@ -956,7 +956,7 @@ if (isReplyToMenu) {
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
           thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
           renderLargerThumbnail: false,
-          showAdAttribution: true
+          showAdAttribution: true,
 
                     
                     },
