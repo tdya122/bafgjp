@@ -1156,12 +1156,10 @@ ${pushname}
 *•────────────╴╴╴•⟢*
 `;
 
+  
         await conn.sendMessage(
            from,
-         {
-
-
-                   image: { url: `https://i.ibb.co/V2HvpfW/9035.jpg` },
+         {image: { url: `https://i.ibb.co/55zy3BV/8868.jpg` },
                     caption: dec,
                     contextInfo: {
                     mentionedJid: [m.sender],
@@ -1170,17 +1168,19 @@ ${pushname}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
-                    newsletterName: 'KD PANTA 00',
+                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
                     serverMessageId: 999
-                            },
-externalAdReply: { 
-title: 'KD PANTA 00',
-body: `${pushname}`,
-mediaType: 1,
-sourceUrl: "https://chat.whatsapp.com/HsK3doqjXQT4Q31bX6BqaN" ,
-thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg" ,
-renderLargerThumbnail: true,
-showAdAttribution: true
+        },
+          externalAdReply: {
+          title: "👿༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒👿",
+          body: "© CRATER TO KAVISHKA",
+          mediaType: 1,
+          sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
+          thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
+          renderLargerThumbnail: false,
+          showAdAttribution: true
+
+                    
                     }
                     }
             },
@@ -1252,10 +1252,8 @@ ${pushname}
 
         await conn.sendMessage(
            from,
-         {
-
-
-                    image: { url: `https://i.ibb.co/V2HvpfW/9035.jpg` },
+        
+         {image: { url: `https://i.ibb.co/55zy3BV/8868.jpg` },
                     caption: dec,
                     contextInfo: {
                     mentionedJid: [m.sender],
@@ -1264,18 +1262,19 @@ ${pushname}
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
-                //    renderLargerThumbnail: true,
                     newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
                     serverMessageId: 999
-                            },
-externalAdReply: { 
-title: '༒👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿༒',
-body: `${pushname}`,
-mediaType: 1,
-sourceUrl: "https://chat.whatsapp.com/HsK3doqjXQT4Q31bX6BqaN" ,
-thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg" ,
-renderLargerThumbnail: true,
-showAdAttribution: true
+        },
+          externalAdReply: {
+          title: "👿༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒👿",
+          body: "© CRATER TO KAVISHKA",
+          mediaType: 1,
+          sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
+          thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
+          renderLargerThumbnail: false,
+          showAdAttribution: true
+
+                    
                     }
                     }
             },
@@ -1352,15 +1351,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
-                    newsletterName: 'KD PANTA 00',
+                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
                     serverMessageId: 999
         },
           externalAdReply: {
-          title: "KD PANTA 00",
-          body: "mead by kavishka",
+          title: "👿༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒👿",
+          body: "© CRATER TO KAVISHKA",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00.git",
-          thumbnailUrl: "https://raw.githubusercontent.com/tharumin/Alexa_Voice/refs/heads/main/20241214_204755.jpg",
+          thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
           renderLargerThumbnail: false,
           showAdAttribution: true
 
