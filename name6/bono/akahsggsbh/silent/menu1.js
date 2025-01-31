@@ -51,7 +51,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://github.com/Kdpanta2/KD_PANTA_00/tree/main'; 
+        const repoUrl = 'https://github.com/Kdpanta2/KD_PANTA_00'; 
         const targetFolder = 'plugins'; 
 
     
