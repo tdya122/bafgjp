@@ -17,59 +17,103 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{ 
 
-let status =`🔮 *_RUN_TIME_* ═▤⫸  ${runtime(process.uptime())}* `
+let status =`🔮 𝐑𝐔𝐍 𝐓𝐈𝐌𝐄 ❯❯❯ ⦁  ${runtime(process.uptime())}* `
 return reply(`${status}`)
 }catch(e){
 console.log(e)
-reply(`*please try againg⭕*`)
+reply(`*please try againg🤖*`)
 }
 })
+
+
+
 
 
 
 
 cmd({
     pattern: "system",
-    react: "🎛️",
     alias: ["uptime","status"],
-    desc: "cheack uptime",
-    category: "main",
+    desc: "alive the bot",
+    category: "alive",
+    react: "🤖",
     filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
+}, 
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
 
-    
-let status = `
+        
+        let dec = ` 
 *┌───────────╶╶╶╾⦁⦂⦁*
-*◈SYSTEM_KD_PANTA_00◈*
+*◈SYSTEM KD PANTA 00◈*
 *└───────────╶╶╶╾⦁⦂⦁*
 👋${pushname}
 
 ╔═════════════●●►
-╚ *◈ UPTIME :* ${runtime(process.uptime())}
+╚ *◈ UPTIME :*
+║ ❯❯ ⦁ ${runtime(process.uptime())}
 ╚═════════════●●►
 
 ╔═════════════●●►
-╚ *◈ RAM USAGE :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+╚ *◈ RAM USAGE :*
+║ ❯❯ ⦁ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ╚═════════════●●►
 
 ╔═════════════●●►
-╚ *◈ HOSTNAME :* ${os.hostname()}
+╚ *◈ HOSTNAME :*
+║ ❯❯ ⦁ ${os.hostname()}
 ╚═════════════●●►
 
-*•────────────╴╴╴•⟢*
-> *©POWER BY KD PANTA 00*
-*•────────────╴╴╴•⟢*
+*•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*
+`;
 
-`
-await conn.sendMessage (from, { image: { url: "https://i.ibb.co/D11XQmL/IMG-20241230-WA0010.jpg"}, caption: `${status}` }, { quoted: mek });
+        await conn.sendMessage(
+           from,
+         {
 
-}catch(e){
-console.log(e)
-reply(`*ᴘʟᴇᴀꜱ ᴛʀʏ ᴀɢᴀɪɴ...⌛*`)
-}
-})
+
+                   image: { url: `https://i.ibb.co/V2HvpfW/9035.jpg` },
+                    caption: dec,
+                    contextInfo: {
+                    mentionedJid: [m.sender],
+                    groupMentions: [],
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363350910072443@newsletter',
+                    newsletterName: 'KD PANTA 00',
+                    serverMessageId: 999
+                            },
+externalAdReply: { 
+title: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
+body: `${pushname}`,
+mediaType: 1,
+sourceUrl: "https://whatsapp.com/channel/0029VaxNSDR4SpkEoUszuP3E" ,
+thumbnailUrl: "https://i.ibb.co/LDPj6RBn/3305.jpg" ,
+renderLargerThumbnail: true,
+showAdAttribution: true
+                    }
+                    }
+            },
+            { quoted: mek }
+        );
+
+        // send audio
+        await conn.sendMessage(from, {
+                   audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
+                   mimetype: 'audio/mp4',
+                   ptt: true
+             },
+             { quoted: mek });
+        
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
+});
+
+
+
 
 cmd({
     pattern: "script",
