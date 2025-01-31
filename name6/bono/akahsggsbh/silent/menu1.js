@@ -198,19 +198,20 @@ ${pushname}
 ╚═════════════●●►
 
 ╔═════════════●●►
-╟ *1 | DOWUNLOD MENU📥*
-╟ *2 | OWNER MENU🤴*
-╟ *3 | MAIN MENU👨‍💻*
-╟ *4 | GROUP MENU👨‍👦‍👦*
-╟ *5 | NEWS MENU📰*
-╟ *6 | CONVERT MENU🔮*
-╟ *7 | FUN MENU🤣*
-╟ *8 | XVDL MENU🔞*
+╟ *1 ▏ DOWUNLOD MENU📥*
+╟ *2 ▏ OWNER MENU🤴*
+╟ *3 ▏ MAIN MENU👨‍💻*
+╟ *4 ▏ GROUP MENU👨‍👦‍👦*
+╟ *5 ▏ NEWS MENU📰*
+╟ *6 ▏ CONVERT MENU🔮*
+╟ *7 ▏ FUN MENU🤣*
+╟ *8 ▏ XVDL MENU🔞*
+╟ *9 ▏ MOVIE MENU🎬*
 ╚═════════════●●►
 
 ╔═════════════●●►
-╟ *📜 .ALLMENU*
-╟ *⚙️ .ALIVE*
+╟ 𝐋𝐈𝐕𝐄 𝐔𝐏𝐃𝐀𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃
+╟ ⌛ .updatcmd
 ╚═════════════●●►
 
 *•────────────╴╴╴•⟢*
