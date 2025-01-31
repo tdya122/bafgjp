@@ -319,9 +319,9 @@ reply(`${e}`)
 cmd({
 
     pattern: "ig",
-    alias: ["igstory","insta"],
+    alias: ["igstagram","insta"],
     desc: "To get the bot informations.",
-    react: "🎥",
+    react: "📥",
     category: "download",
     filename: __filename
 
@@ -358,7 +358,7 @@ reply(`${e}`)
 
 //twitter dl (x)
 cmd({
-    pattern: "twitter2",
+    pattern: "twitter3",
    // alias: ["twdl"],
     react: "🖥️",
     desc: "download tw videos",
