@@ -92,9 +92,9 @@ cmd({
 
 //=========Facbook==============
 cmd({
-  pattern: "fb",
+  pattern: "fb2",
   react: '🔮',
-  alias: ["fbdl","facebook"],
+  alias: ["fbdl2","facebook2"],
   desc: "",
   category: "download",
   use: '.fb <Fb video link>',
@@ -142,8 +142,8 @@ reply(`*ᴘʟᴇᴀꜱ ᴛʀʏ ᴀɢᴀɪɴ...⌛*`)
 
 
 cmd({
-    pattern: "tiktok",
-    alias: ["ttdl","tt"],
+    pattern: "tiktok2",
+    alias: ["ttdl2","tt2"],
     react: '🏷️',
     desc: "",
     category: "download",
