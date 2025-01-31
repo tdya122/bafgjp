@@ -336,6 +336,10 @@ ${pushname}
 ║ *( google drive dowunloder )*
 ║
 ╟─────────────●●►
+║ *❏ .GDRIVE2  < ʟɪɴᴋ >*
+║ *( google drive downloader )*
+║
+╟─────────────●●►
 ║ *❏ .LYRICS  < ꜱᴇᴀʀᴄʜ >*
 ║ *( yt song lyrics )*
 ║
