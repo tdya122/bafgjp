@@ -1269,7 +1269,7 @@ ${pushname}
                     serverMessageId: 999
                             },
 externalAdReply: { 
-title: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿❖|_WHATSAPP꧂',
+title: '༒👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿༒',
 body: `© POWERDE BY KD PANTA 00`,
 mediaType: 1,
 sourceUrl: "https://chat.whatsapp.com/HsK3doqjXQT4Q31bX6BqaN" ,
@@ -1358,7 +1358,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     serverMessageId: 999
                             },
 externalAdReply: { 
-title: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿❖|_Whatsapp꧂',
+title: '༒👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿༒',
 body: `© POWERDE BY KD PANTA 00`,
 mediaType: 1,
 sourceUrl: "https://chat.whatsapp.com/BUXYSeJZdPTFccIFvsvNyL" ,
