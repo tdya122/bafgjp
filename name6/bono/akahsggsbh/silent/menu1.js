@@ -1359,7 +1359,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           body: "mead by kavishka",
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
-          thumbnailUrl: "https://raw.githubusercontent.com/tdya122/bafgjp/refs/heads/main/name4/bono/20241122_185935.png",
+          thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
           renderLargerThumbnail: true,
           showAdAttribution: true
 
