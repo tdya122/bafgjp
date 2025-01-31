@@ -152,7 +152,7 @@ else return mek.reply("```This is Not A ViewOnce Message```")
 await conn.sendMessage(from, { react: { text: `✅`, key: mek.key }}) 
 }catch(e){
 console.log(e)
-reply(`*THERE IS AN ERRER☹️*`)
+reply(`*THERE IS AN ERRER⛔*`)
 }
 })
 
@@ -1265,12 +1265,12 @@ ${pushname}
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
                 //    renderLargerThumbnail: true,
-                    newsletterName: 'KD PANTA 00',
+                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
                     serverMessageId: 999
                             },
 externalAdReply: { 
-title: 'KD PANTA 00',
-body: `${pushname}`,
+title: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿❖|_WHATSAPP꧂',
+body: `© POWERDE BY KD PANTA 00`,
 mediaType: 1,
 sourceUrl: "https://chat.whatsapp.com/HsK3doqjXQT4Q31bX6BqaN" ,
 thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg" ,
@@ -1354,12 +1354,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363350910072443@newsletter',
-                    newsletterName: 'KD PANTA 00',
+                    newsletterName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿',
                     serverMessageId: 999
                             },
 externalAdReply: { 
-title: 'KD PANTA 00',
-body: `${pushname}`,
+title: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿❖|_Whatsapp꧂',
+body: `© POWERDE BY KD PANTA 00`,
 mediaType: 1,
 sourceUrl: "https://chat.whatsapp.com/BUXYSeJZdPTFccIFvsvNyL" ,
 thumbnailUrl: "file:///storage/emulated/0/Download/20250106_220247.jpg" ,
