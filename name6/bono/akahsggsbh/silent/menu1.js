@@ -272,10 +272,6 @@ ${pushname}
 ║ *(  yt video dowunloder )*
 ║
 ╟─────────────●●►
-║ *❏ .VIDEOPRO < ꜱᴇᴀʀᴄʜ >*
-║ *( onlye sound qality video )*
-║
-╟─────────────●●►
 ║ *❏ .MP3  < ꜱᴇᴀʀᴄʜ >*
 ║ *( song dowunloder )*
 ║
@@ -286,6 +282,10 @@ ${pushname}
 ╟─────────────●●►
 ║ *❏ .TT < ʟɪɴᴋ >*
 ║ *( tik tok dowunloder )*
+║
+╟─────────────●●►
+║ *❏ .TT2  < ʟɪɴᴋ >*
+║ *( tik tok downloader )*
 ║
 ╟─────────────●●►
 ║ *❏ .IMG < ꜱᴇᴀʀᴄʜ >*
@@ -312,12 +312,24 @@ ${pushname}
 ║ *( facbook dowunloder )*
 ║
 ╟─────────────●●►
+║ *❏ .FB2  < ʟɪɴᴋ >*
+║ *( facebook downloader )*
+║
+╟─────────────●●►
 ║ *❏ .IG  < ʟɪɴᴋ >*
 ║ *( intagram dowunloder )*
 ║
 ╟─────────────●●►
+║ *❏ .IG2  < ʟɪɴᴋ >*
+║ *( instagram downloader )*
+║
+╟─────────────●●►
 ║ *❏ .MEDIAFIRE  < ʟɪɴᴋ >*
 ║ *( mediafire dowunloder )*
+║
+╟─────────────●●►
+║ *❏ .MEDIAFIRE2  < ʟɪɴᴋ >*
+║ *( mediafire downloader )*
 ║
 ╟─────────────●●►
 ║ *❏ .GDRIVE  < ʟɪɴᴋ >*
@@ -352,8 +364,16 @@ ${pushname}
 ║ *( apk app downloader )*
 ║
 ╟─────────────●●►
+║ *❏ .APK3  < ᴀᴘᴘ ɴᴀᴍᴇ >*
+║ *( apk app downloader )*
+║
+╟─────────────●●►
 ║ *❏ .SINHALASUB  < ꜱᴇᴀʀᴄʜ >*
 ║ *( sinhala subtitle films )*
+║
+╟─────────────●●►
+║ *❏ .GINIDIDILA  < ᴄᴀʀᴛᴏᴏɴ ɴᴀᴍᴇ >*
+║ *( cartoon video )*
 ║
 ╟─────────────●●►
 ║ *❏ .WALLPAPER*
@@ -448,7 +468,7 @@ ${pushname}
 ${pushname}
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏╔═════════════●●►
-║ *❏ .SUPORT* 
+║ *❏ .SUPPORT* 
 ║ *( help group )*
 ║
 ╟─────────────●●►
