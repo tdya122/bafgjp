@@ -1340,9 +1340,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*
 `;
 
-        await conn.sendMessage(
+        
+         await conn.sendMessage(
            from,
-         {image: { url:`https://i.ibb.co/TcyMWM2/3482.jpg` },
+         {image: { url: `https://i.ibb.co/55zy3BV/8868.jpg` },
                     caption: dec,
                     contextInfo: {
                     mentionedJid: [m.sender],
@@ -1360,8 +1361,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           mediaType: 1,
           sourceUrl: "https://github.com/Kdpanta2/KD_PANTA_00",
           thumbnailUrl: "https://pomf2.lain.la/f/fxhw0z8c.jpg",
-          renderLargerThumbnail: true,
+          renderLargerThumbnail: false,
           showAdAttribution: true
+    
 
 
 /*image: { url: video.thumbnail || "https://i.ibb.co/TcyMWM2/3482.jpg" },
