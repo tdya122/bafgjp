@@ -184,10 +184,8 @@ cmd({
 
     const menuText = `
 *┌───────────╶╶╶╾⦁⦂⦁*
-*◈MENU KD_PANTA_00◈*
+*👋 WELCOME KD PANTA 00*
 *└───────────╶╶╶╾⦁⦂⦁*
-*👋 HELLOE WELCOM*
-${pushname}
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
 ╔═════════════●●►
 ❯❯ ⦁ *⏳ UPTIME :* ${runtime(process.uptime())} 
