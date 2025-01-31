@@ -1342,7 +1342,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         await conn.sendMessage(
            from,
-         {image: { url: `https://raw.githubusercontent.com/tdya122/bafgjp/refs/heads/main/name4/bono/20250129_151553.jpg` },
+         {image: { url: dec.thumbnail || `https://raw.githubusercontent.com/tdya122/bafgjp/refs/heads/main/name4/bono/20250129_151553.jpg` },
                     caption: dec,
                     contextInfo: {
                     mentionedJid: [m.sender],
@@ -1363,6 +1363,18 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
           renderLargerThumbnail: true,
           showAdAttribution: true
 
+
+/*image: { url: video.thumbnail || "https://i.ibb.co/TcyMWM2/3482.jpg" },
+      caption: dec,
+      contextInfo: {
+        mentionedJid: [m.sender],
+        externalAdReply: {
+          showAdAttribution: true,
+          containsAutoReply: true,
+          title: "👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿",
+          body: "© CREATE BY KD PANTA 00",*/
+
+              
                     
                     }
                     }
