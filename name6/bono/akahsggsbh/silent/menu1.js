@@ -1359,7 +1359,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                             },
 externalAdReply: { 
 title: '༒👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿༒',
-body: `© POWERDE BY KD PANTA 00`,
+body: '© POWERDE BY KD PANTA 00',
 mediaType: 1,
 sourceUrl: "https://chat.whatsapp.com/BUXYSeJZdPTFccIFvsvNyL" ,
 thumbnailUrl: "file:///storage/emulated/0/Download/20250106_220247.jpg" ,
