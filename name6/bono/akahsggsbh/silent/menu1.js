@@ -190,7 +190,7 @@ cmd({
 ❯❯ ⦁ *⏳ UPTIME :* ${runtime(process.uptime())} 
 ❯❯ ⦁ *🤖 RAM USAGE :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
 ❯❯ ⦁ *✒️ HOST NAME :* ${os.hostname()}
-❯❯ ⦁ *👨‍💻 OWNER :* kavishka Iroshan
+❯❯ ⦁ *👨‍💻 OWNER :* kavishka.
 ❯❯ ⦁ *🎰 VERSION :* 1.0.0 BETA
 ╚═════════════●●►
 
