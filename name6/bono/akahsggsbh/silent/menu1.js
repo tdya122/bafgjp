@@ -185,18 +185,14 @@ cmd({
 
   try {
 
-    const menuText = `*┌───────────╶╶╶╾⦁⦂⦁*
+    const menuText = `
+*┌───────────╶╶╶╾⦁⦂⦁*
 *👋 WELCOME KD PANTA 00*
 *└───────────╶╶╶╾⦁⦂⦁*
-͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
-╔═════════════●●►
-❯❯ ⦁ *⏳ UPTIME :* ${runtime(process.uptime())} 
-❯❯ ⦁ *🤖 RAM USAGE :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-❯❯ ⦁ *✒️ HOST NAME :* ${os.hostname()}
-❯❯ ⦁ *👨‍💻 OWNER :* kavishka.
-❯❯ ⦁ *🎰 VERSION :* 1.0.0 BETA
-╚═════════════●●►
+🪄͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏${pushname}
 
+╔═════════════●●►
+╚ 📝 𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 📝
 ╔═════════════●●►
 ╟ *1 ▏ DOWUNLOD MENU📥*
 ╟ *2 ▏ OWNER MENU🤴*
@@ -1227,18 +1223,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ${pushname}
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
 ╔═════════════●●►
-╚ 𝗖𝗔𝗧𝗘𝗚𝗢𝗥𝗬 𝗗𝗘𝗧𝗔𝗜𝗟𝗦
+╚ 📝 𝐀𝐋𝐈𝐕𝐄 𝐌𝐄𝐄𝐒𝐀𝐆𝐄 📝
 ╔═════════════●●►
-╟ ❯❯ ⦁ *ᴘᴏᴡᴇʀ ʙʏ ᴋᴅ ᴘᴀɴᴛᴀ*
-╟ ❯❯ ⦁ *ᴄʀᴇᴀᴛᴏʀ ᴋᴀᴠɪꜱʜᴋᴀ*
-╟ ❯❯ ⦁ *ᴘʟᴀᴛꜰʀᴏᴍ : ʜᴇʀᴏᴋᴜ*
-╟ ❯❯ ⦁ *ɴᴜᴍʙᴇʀ : [ 94755997170 ]*
-╟ ❯❯ ⦁ *ᴘʀᴇꜰɪx : [  .  ]*
-╟ ❯❯ ⦁ *ʀᴀᴍ ᴜꜱᴇɢᴇ*
-╚═════════════●●►
-
-╔═════════════●●►
-╚ ❯❯ ⦁ 𝗥𝗘𝗣𝗢 *: https://github.com/Kdpanta2/KD_PANTA_00*
+❯❯ ⦁ *⏳ UPTIME :* ${runtime(process.uptime())} 
+❯❯ ⦁ *🤖 RAM USAGE :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
+❯❯ ⦁ *✒️ HOST NAME :* ${os.hostname()}
+❯❯ ⦁ *👨‍💻 OWNER :* kavishka.
+❯❯ ⦁ *🎰 VERSION :* 1.0.0 BETA
 ╚═════════════●●►
 
 ╔═════════════●●►
