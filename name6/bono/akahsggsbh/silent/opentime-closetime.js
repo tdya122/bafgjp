@@ -431,7 +431,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const goodbye = q
         if (!goodbye) return reply('*_Please provide a goodbye message._*')
 
-        await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: goodbye })
+        await conn.sendMessage(from, { image: { url: `https://i.ibb.co/TxbZ6b7p/6809.jpg` }, caption: goodbye })
         await reply('Goodbye message has been set.')
     } catch (e) {
         console.log(e)
@@ -455,7 +455,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const welcome = q
         if (!welcome) return reply('*_Please provide a welcome message._*')
 
-        await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: welcome })
+        await conn.sendMessage(from, { image: { url: `https://i.ibb.co/TxbZ6b7p/6809.jpg` }, caption: welcome })
         await reply('Welcome message has been set.')
     } catch (e) {
         console.log(e)
