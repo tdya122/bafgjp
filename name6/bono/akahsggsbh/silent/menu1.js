@@ -192,7 +192,7 @@ cmd({
 🪄͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏${pushname}
 
 ╔═════════════●●►
-╚ 📝 𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 📝
+╚ 📝 𝐌𝐄𝐍𝐔 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 
 ╔═════════════●●►
 ╟ *1 ▏ DOWUNLOD MENU📥*
 ╟ *2 ▏ OWNER MENU🤴*
@@ -1223,13 +1223,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ${pushname}
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
 ╔═════════════●●►
-╚ 📝 𝐀𝐋𝐈𝐕𝐄 𝐌𝐄𝐄𝐒𝐀𝐆𝐄 📝
+╚ 📝 𝐀𝐋𝐈𝐕𝐄 𝐌𝐄𝐄𝐒𝐀𝐆𝐄 
 ╔═════════════●●►
-❯❯ ⦁ *⏳ UPTIME :* ${runtime(process.uptime())} 
-❯❯ ⦁ *🤖 RAM USAGE :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
-❯❯ ⦁ *✒️ HOST NAME :* ${os.hostname()}
-❯❯ ⦁ *👨‍💻 OWNER :* kavishka.
-❯❯ ⦁ *🎰 VERSION :* 1.0.0 BETA
+║ *⏳ UPTIME :* ${runtime(process.uptime())} 
+║ *🤖 RAM USAGE :* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
+║ *✒️ HOST NAME :* ${os.hostname()}
+║ *👨‍💻 OWNER :* kavishka.
+║ *🎰 VERSION :* 1.0.0 BETA
 ╚═════════════●●►
 
 ╔═════════════●●►
