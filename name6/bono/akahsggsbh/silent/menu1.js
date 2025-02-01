@@ -1217,10 +1217,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         
         let dec = ` 
 *┌───────────╶╶╶╾⦁⦂⦁*
-*◈ALIVE_KD_PANTA_00◈*
+*◈👋WELCOME KD PANTA 00◈*
 *└───────────╶╶╶╾⦁⦂⦁*
-*👋 HELLO, WELCOME* 
-${pushname}
+🪄${pushname}
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
 ╔════════════●●►
 ║ 📝 𝐀𝐋𝐈𝐕𝐄 𝐌𝐄𝐄𝐒𝐀𝐆𝐄
