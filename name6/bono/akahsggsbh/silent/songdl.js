@@ -168,24 +168,36 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const url = data.url;
 
         let desc = `
-        *💚🎵 𝐘𝐓 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 🎵💚*
-        
-> *\`➤ Title\` :* ${data.title}
+*┌───────────╶╶╶╾⦁⦂⦁*
+*◈SONG DL KD PANTA 00◈*
+*└───────────╶╶╶╾⦁⦂⦁*
+ 
+╔══════════════●●►
+╚  *\`📝 Title\` :* ${data.title}
+╚══════════════●●►
 
-> *\`➤ Views\` :* ${data.views}
+╔══════════════●●►
+╚ *\`👁️ Views\` :* ${data.views}
+╚══════════════●●►
 
-> *\`➤ DESCRIPTION\`:* ${data.description}
+╔══════════════●●►
+╚ *\`👨‍💻 DESCRIPTION\`:* ${data.description}
+╚══════════════●●►
 
-> *\`➤ TIME\`:* ${data.timestamp}
+╔══════════════●●►
+╚ *\`⏰ TIME\`:* ${data.timestamp}
+╚══════════════●●►
 
-> *\`➤ AGO\`:* ${data.ago}
+╔══════════════●●►
+╚ *\`🌍 AGO\`:* ${data.ago}
+╚══════════════●●►
 
-*◄❪ Reply This Message With Nambars ❫►*
+*🔢 Reply This Message With Nambars*
 
-1. Audio 🎧
-2. Document 🗂️
+1. AUDIO FILE 🎧
+2. DOQUMENTS FILE🗂️
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚*`;
+*•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
@@ -203,7 +215,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     const downloadUrl = response.dl_link;
 
 //============Send Audio======================
-await conn.sendMessage(from,{audio:{url: downloadUrl },mimetype:"audio/mpeg",caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚*"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url: downloadUrl },mimetype:"audio/mpeg",caption :"*•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*"},{quoted:mek})
                         break;
        
                     case '2':               
@@ -212,11 +224,11 @@ const responsex = await fetchJson(`https://manul-official-api-site-4a4d3aa3fe73.
     const downloadUrlx = response.dl_link;
 
 //=============Send Document=================
-await conn.sendMessage(from,{document:{url: downloadUrlx },mimetype:"audio/mpeg",fileName: data.title + ".mp3" ,caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚*"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrlx },mimetype:"audio/mpeg",fileName: data.title + ".mp3" ,caption :"*•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*"},{quoted:mek})
                         break;
  
                     default:
-                        reply("Invalid option. Please select a valid option 💗");
+                        reply("*Invalid option. Please select a valid option ⛔*");
                 }
 
             }
@@ -228,7 +240,7 @@ await conn.sendMessage(from,{document:{url: downloadUrlx },mimetype:"audio/mpeg"
         reply('An error occurred while processing your request.');
     }
 });
-//=============©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚==========
+
 
 
 
