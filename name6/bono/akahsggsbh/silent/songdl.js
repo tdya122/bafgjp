@@ -198,7 +198,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             if (msg.message.extendedTextMessage.contextInfo && msg.message.extendedTextMessage.contextInfo.stanzaId === vv.key.id) {
                 switch (selectedOption) {
                     case '1':
-    const response = await fetchJson(`${domain}/ytmp3-fix?url=${data.url}`);
+    const response = await fetchJson(`${domain}https://manul-official-api-site-4a4d3aa3fe73.herokuapp.com/ytmp3-fix?url=${data.url}`);
     
     const downloadUrl = response.dl_link;
 
@@ -207,7 +207,7 @@ await conn.sendMessage(from,{audio:{url: downloadUrl },mimetype:"audio/mpeg",cap
                         break;
        
                     case '2':               
-const responsex = await fetchJson(`${domain}/ytmp3-fix?url=${data.url}`);
+const responsex = await fetchJson(`${domain}https://manul-official-api-site-4a4d3aa3fe73.herokuapp.com/ytmp3-fix?url=${data.url}`);
     
     const downloadUrlx = response.dl_link;
 
