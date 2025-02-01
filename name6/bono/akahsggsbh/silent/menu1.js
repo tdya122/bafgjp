@@ -1184,12 +1184,12 @@ ${pushname}
         );
 
         // send audio
-        await conn.sendMessage(from, {
+      /*  await conn.sendMessage(from, {
                    audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
                    mimetype: 'audio/mp4',
                    ptt: true
              },
-             { quoted: mek });
+             { quoted: mek }); */
         
     } catch (e) {
         console.log(e);
@@ -1274,12 +1274,12 @@ ${pushname}
         );
 
         // send audio
-        await conn.sendMessage(from, {
+      /*  await conn.sendMessage(from, {
                    audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
                    mimetype: 'audio/mp4',
                    ptt: true
              },
-             { quoted: mek });
+             { quoted: mek });*/
         
     } catch (e) {
         console.log(e);
@@ -1362,15 +1362,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             { quoted: mek }
         );
 
-
-        // send audio
-        await conn.sendMessage(from, {
-                   audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
-                   mimetype: 'audio/mp4',
-                   ptt: true
-             },
-             { quoted: mek });
-        
     } catch (e) {
         console.log(e);
         reply(`${e}`);
