@@ -1251,14 +1251,14 @@ cmd(
         return await _0x20f27b('No results found for: ' + _0x2f9e41)
       }
       let _0x563ad3 =
-        '\uD83D\uDCFD️ *Search Results for* "' + _0x2f9e41 + '":\n\n'
+        '*┌───────────╶╶╶╾⦁⦂⦁*\n*◈SINHALASUB KD PANTA 00*\n*└───────────╶╶╶╾⦁⦂⦁*\n\n*🎬 SEARCH RESULTS FOR SINHALA SUBTITLE MOVIE :' + _0x2f9e41 + '*\n\n'
       _0x66d8c6.forEach((_0x5634fb, _0x85e080) => {
         _0x563ad3 +=
-          '*' +
+          '╔══════════════●●►\n╚ *' +
           (_0x85e080 + 1) +
           '.* ' +
           _0x5634fb.title +
-          '\n\uD83D\uDD17 Link: ' +
+          '\n\uD83D\uDD17 𝗟𝗜𝗡𝗞 : ' +
           _0x5634fb.link +
           '\n\n'
       })
@@ -1296,21 +1296,21 @@ cmd(
                 _0x4bd79a = _0x306fd2.data.result,
                 _0x446048 = _0x4bd79a.dl_links || []
               if (_0x446048.length === 0) {
-                return await _0x20f27b('No PixelDrain links found.')
+                return await _0x20f27b('*⏳ No PixelDrain links found.*')
               }
               let _0x3dc978 = '\uD83C\uDFA5 *' + _0x4bd79a.title + '*\n\n'
-              _0x3dc978 += '*Available PixelDrain Download Links:*\n'
+              _0x3dc978 += '*🔢 Reply your Download Movie Links:*\n'
               _0x446048.forEach((_0x359c3a, _0x5298f6) => {
                 _0x3dc978 +=
-                  '*' +
+                  '╔══════════════●●►\n╚ *' +
                   (_0x5298f6 + 1) +
                   '.* ' +
                   _0x359c3a.quality +
                   ' - ' +
                   _0x359c3a.size +
-                  '\n\uD83D\uDD17 Link: ' +
+                  '\n\uD83D\uDD17 𝗟𝗜𝗡𝗞 : ' +
                   _0x359c3a.link +
-                  '\n\n'
+                  '\n\n*•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*'
               })
               const _0xf30520 = await _0x3dfd8e.sendMessage(
                   _0x4a183a,
@@ -1364,7 +1364,7 @@ cmd(
                           _0x4bd79a.title +
                           '\nQuality: ' +
                           _0x2677a1.quality +
-                          '\nPOWER KD PANTA 00',
+                          '\n\n> *© POWER KD PANTA 00*',
                         contextInfo: {
                           mentionedJid: [],
                           externalAdReply: {
