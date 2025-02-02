@@ -1084,11 +1084,11 @@ cmd(
           ) {
             const _0x1d0aed = _0x572788[_0x284411 - 1],
               _0x189e89 =
-                '✒️ *NAME :*' +
-                \n_0x1d0aed.title +
-                '\n⏳ *TIME :*' +
+                '✒️ NAME :' +
+                _0x1d0aed.title +
+                '\n⏳ TIME :' +
                 _0x1d0aed.postedTime +
-                '\n\uD83D\uDCCE *URL :*' +
+                '\n🖇️ URL :' +
                 _0x1d0aed.episodeLink +
                 '\n\n*🎆 We are uploading the Movie/Episode you requested.*',
               _0x456cc9 = {
@@ -1115,9 +1115,9 @@ cmd(
                       {
                         document: { url: _0x46edb0 },
                         mimetype: 'video/mp4',
-                        fileName: '👿𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎👿 | ' + _0x1d0aed.title + '.mp4',
+                        fileName: '༒𝐊𝐃 𝐏么𝐍𝐓么 𝐎𝐎༒ | ' + _0x1d0aed.title + '.mp4',
                         caption:
-                          _0x1d0aed.title + '\n\n> *© POWERDE KD PANTA 00',
+                          _0x1d0aed.title + '\n\n> *© POWERDE KD PANTA 00*',
                       },
                       { quoted: _0x171143 }
                     )
