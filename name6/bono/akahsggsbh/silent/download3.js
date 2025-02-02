@@ -1084,13 +1084,13 @@ cmd(
           ) {
             const _0x1d0aed = _0x572788[_0x284411 - 1],
               _0x189e89 =
-                '✒️ NAME :' +
+                '✒️ 𝗡𝗔𝗠𝗘 :' +
                 _0x1d0aed.title +
-                '\n⏳ TIME :' +
+                '\n⏳ 𝗧𝗜𝗠𝗘 :' +
                 _0x1d0aed.postedTime +
-                '\n🖇️ URL :' +
+                '\n🖇️ 𝗨𝗥𝗟 :' +
                 _0x1d0aed.episodeLink +
-                '\n\n*🎆 We are uploading the Movie/Episode you requested.*',
+                '\n\n*🎆 WE ARE UPLOADING YOUR CARTOON MOVIE 🎆*\n\n*•────────────╴╴╴•⟢*\n> *© POWER BY KD PANTA*\n*•────────────╴╴╴•⟢*',
               _0x456cc9 = {
                 image: { url: _0x1d0aed.imageUrl },
                 caption: _0x189e89,
