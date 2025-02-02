@@ -1053,8 +1053,8 @@ cmd(
           '\n📝 𝗣️𝗢𝗦𝗧𝗘𝗗: ' +
           _0x16cf4a.postedTime +
           '\n🖇️ 𝗨𝗥𝗟 : ' +
-          _0x16cf4a.episodeLink +
-          '\n╚══════════════●●►\n\n'
+          _0x16cf4a.episodeLink + 
+          '\n\n'
       })
       const _0x5a1342 = await _0x5049fe.sendMessage(
           _0x2287e7,
