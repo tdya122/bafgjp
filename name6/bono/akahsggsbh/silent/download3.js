@@ -1043,16 +1043,16 @@ cmd(
       if (_0x572788.length === 0) {
         return await _0xc4807('No results found for: ' + _0x4564d6)
       }
-      let _0x22c31b = '\uD83D\uDCFA Search Results for *' + _0x4564d6 + ':*\n\n'
+      let _0x22c31b = '*┌───────────╶╶╶╾⦁⦂⦁*\n*◈CARTOON KD PANTA 00◈*\n*└───────────╶╶╶╾⦁⦂⦁*\n\n*🎬 CARTOON SEARCH RESULTS 🎬*' + _0x4564d6 + ':*\n\n'
       _0x572788.forEach((_0x16cf4a, _0x35b536) => {
         _0x22c31b +=
-          '*' +
+          '🔢 Reply to number*\n\n*' +
           (_0x35b536 + 1) +
           '.* ' +
           _0x16cf4a.title +
-          '\n\uD83D\uDDD3️ Posted: ' +
+          '\n📝 𝗣️𝗢𝗦𝗧𝗘𝗗: ' +
           _0x16cf4a.postedTime +
-          '\n\uD83D\uDD17 Link: ' +
+          '\n🖇️ 𝗨𝗥𝗟 : ' +
           _0x16cf4a.episodeLink +
           '\n\n'
       })
