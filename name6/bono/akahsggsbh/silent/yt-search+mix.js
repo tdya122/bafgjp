@@ -161,7 +161,8 @@ cmd({
 
 
 cmd({
-    pattern: "movie",
+    pattern: "moviesearch",
+    alias: ["movies","msearch"],
     desc: "Fetch detailed information about a movie.",
     category: "utility",
     react: "🎬",
@@ -217,7 +218,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 cmd({
-  pattern: "twitter2",
+  pattern: "twitter3",
   alias: ["twet2", "twdl2"],
   desc: "Download Twitter videos",
   category: "download",
