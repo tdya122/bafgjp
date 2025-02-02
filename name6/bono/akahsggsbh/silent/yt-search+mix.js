@@ -218,8 +218,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 cmd({
-  pattern: "twitter3",
-  alias: ["twet2", "twdl2"],
+  pattern: "twitter",
+  alias: ["tweet","twit","twdl"],
   desc: "Download Twitter videos",
   category: "download",
   filename: __filename
