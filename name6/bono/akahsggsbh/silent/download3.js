@@ -1084,8 +1084,8 @@ cmd(
           ) {
             const _0x1d0aed = _0x572788[_0x284411 - 1],
               _0x189e89 =
-                '✒️ *NAME :*' 
-                _0x1d0aed.title +
+                '✒️ *NAME :*' +
+                \n_0x1d0aed.title +
                 '\n⏳ *TIME :*' +
                 _0x1d0aed.postedTime +
                 '\n\uD83D\uDCCE *URL :*' +
