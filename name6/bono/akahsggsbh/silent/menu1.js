@@ -1233,7 +1233,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 ╔═════════════●●►
 ╚ 🐱 𝐆𝐈𝐓𝐇𝐔𝐁 𝐖𝐄𝐁
-║ *https://kd-panta-pair-web-05c194436d88.herokuapp.com/*
+║ *https://kd-panta-web-6ee7fa9f3f26.herokuapp.com/*
 ╚═════════════●●►
 
 *•────────────╴╴╴•⟢*
