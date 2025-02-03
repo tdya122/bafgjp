@@ -83,7 +83,7 @@ l(e)
 
 
 cmd({
-pattern: "vv",
+pattern: "vv2",
     react: "😁",
     alias: ["mattu","dakkada","mekada","supiri"],
     desc: "To ViewOnceMessage",
