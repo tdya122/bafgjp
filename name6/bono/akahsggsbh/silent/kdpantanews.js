@@ -1,11 +1,14 @@
 
 
 
-const { cmd } = require('../command');
+
 const Hiru = require('hirunews-scrap');
 const Esana = require('@sl-code-lords/esana-news');
 const axios = require('axios');
 const config = require('../config');
+const { cmd, commands } = require('../command');
+const { fetchJson } = require('../lib/functions');
+const kaliya = `https://kaliya-x-api-aa295bddf395.herokuapp.com/news`
 
 
 
@@ -228,12 +231,6 @@ async (conn, mek, m, { from, reply }) => {
 
 
 
-
-
-
-const { cmd, commands } = require('../command');
-const { fetchJson } = require('../lib/functions');
-const kaliya = `https://kaliya-x-api-aa295bddf395.herokuapp.com/news`
 
 
 
